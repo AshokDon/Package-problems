@@ -1,0 +1,16 @@
+1.Open Command Prompt and enter pip install virtualenv
+
+2.Download the desired python version (do NOT add to PATH!), 
+and remember the path\to\new_python.exe of the newly installed version
+
+3.To create a virtualenv, open Command Prompt and enter
+virtualenv \path\to\env -p path\to\new_python.exe
+
+4.If you are using PyCharm, update the Project Interpreter and
+the Code compatibility inspection.
+
+5.To install packages:
+(I) Activate virtualenv: open Command Prompt and enter path\to\env\Scripts\activate.bat
+(II)  Install desired packages
+(III)  Deactivate with deactivate .
+
